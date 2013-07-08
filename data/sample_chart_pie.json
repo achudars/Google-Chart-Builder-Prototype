@@ -1,0 +1,197 @@
+{
+    "id": 8461645899949956,
+    "name": "chart_sample_pie",
+    "columns": [
+        {
+            "id": 6019639835682692,
+            "index": 0,
+            "title": "Sales Region",
+            "type": "TEXT_NUMBER",
+            "primary": true
+        },
+        {
+            "id": 3767840021997444,
+            "index": 1,
+            "title": "Revenue",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 8271439649367940,
+            "index": 2,
+            "title": "Column3",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 953090254890884,
+            "index": 3,
+            "title": "Column4",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 5456689882261380,
+            "index": 4,
+            "title": "Column5",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 3204890068576132,
+            "index": 5,
+            "title": "Column6",
+            "type": "TEXT_NUMBER"
+        }
+    ],
+    "rows": [
+        {
+            "id": 8226838444042116,
+            "rowNumber": 1,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": "Southwest",
+                    "columnId": 6019639835682692,
+                    "displayValue": "Southwest"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1000,
+                    "columnId": 3767840021997444,
+                    "displayValue": "1000"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:13-05:00",
+            "modifiedAt": "2013-06-30T11:16:13-05:00"
+        },
+        {
+            "id": 908489049565060,
+            "rowNumber": 2,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": "Southeast",
+                    "columnId": 6019639835682692,
+                    "displayValue": "Southeast"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1200,
+                    "columnId": 3767840021997444,
+                    "displayValue": "1200"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:13-05:00",
+            "modifiedAt": "2013-06-30T11:16:13-05:00"
+        },
+        {
+            "id": 5412088676935556,
+            "rowNumber": 3,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": "Northeast",
+                    "columnId": 6019639835682692,
+                    "displayValue": "Northeast"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 900,
+                    "columnId": 3767840021997444,
+                    "displayValue": "900"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:13-05:00",
+            "modifiedAt": "2013-06-30T11:16:13-05:00"
+        },
+        {
+            "id": 3160288863250308,
+            "rowNumber": 4,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": "Midwest",
+                    "columnId": 6019639835682692,
+                    "displayValue": "Midwest"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 600,
+                    "columnId": 3767840021997444,
+                    "displayValue": "600"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:13-05:00",
+            "modifiedAt": "2013-06-30T11:16:13-05:00"
+        },
+        {
+            "id": 7663888490620804,
+            "rowNumber": 5,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": "Mountain",
+                    "columnId": 6019639835682692,
+                    "displayValue": "Mountain"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 400,
+                    "columnId": 3767840021997444,
+                    "displayValue": "400"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:13-05:00",
+            "modifiedAt": "2013-06-30T11:16:13-05:00"
+        },
+        {
+            "id": 2034388956407684,
+            "rowNumber": 6,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": "Northwest",
+                    "columnId": 6019639835682692,
+                    "displayValue": "Northwest"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 750,
+                    "columnId": 3767840021997444,
+                    "displayValue": "750"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:13-05:00",
+            "modifiedAt": "2013-06-30T11:16:13-05:00"
+        },
+        {
+            "id": 6537988583778180,
+            "rowNumber": 7,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": "California",
+                    "columnId": 6019639835682692,
+                    "displayValue": "California"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 350,
+                    "columnId": 3767840021997444,
+                    "displayValue": "350"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:13-05:00",
+            "modifiedAt": "2013-06-30T11:16:13-05:00"
+        }
+    ],
+    "accessLevel": "OWNER",
+    "version": 1,
+    "permalink": "https://www.smartsheet.com/b/home?lx=1rEBSxSFIjkS0t9JV_yzEQ",
+    "createdAt": "2013-06-30T11:14:37-05:00",
+    "modifiedAt": "2013-06-30T11:16:13-05:00"
+}

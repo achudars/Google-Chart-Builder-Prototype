@@ -1,0 +1,226 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>
+        Google Chart Builder Prototype
+    </title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css"
+          rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+    <!-- Colorpicker -->
+    <link href="assets/bootstrap-colorpicker/css/bootstrap-colorpicker.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body ng-cloak="" ng-controller="SampleCtrl">
+<div class="container-fluid">
+  <header id="header">
+    <h1>Google Chart Builder Prototype</h1>
+  </header>
+</div>
+
+<!-- Chart Choice -->
+<div class="container-fluid">
+  <div class="holder" id="chart-type">
+     <ul>
+        <li class="thumbnail checked" data-toggle="tooltip" data-title="Area Chart">
+          <label>
+            <input type="radio" value='AreaChart' ng-model="chart.type" />
+            <img src="images/area.png">
+          </label>
+        </li>
+        <li class="thumbnail" data-toggle="tooltip" data-title="Pie Chart">
+          <label>
+            <input type="radio" value='PieChart' ng-model="chart.type" />
+            <img src="images/pie.png">
+          </label>
+        </li>
+        <li class="thumbnail" data-toggle="tooltip" data-title="Column Chart">
+          <label>
+            <input type="radio" value='ColumnChart' ng-model="chart.type" />
+            <img src="images/column.png" >
+          </label>
+        </li>
+        <li class="thumbnail" data-toggle="tooltip" data-title="Line Chart">
+          <label>
+            <input type="radio" value='LineChart' ng-model="chart.type" />
+            <img src="images/line.png">
+          </label>
+        </li>
+        <li class="thumbnail" data-toggle="tooltip" data-title="Bar Chart">
+          <label>
+            <input type="radio" value='BarChart' ng-model="chart.type" />
+            <img src="images/bar.png">
+          </label>
+        </li>
+        <li class="thumbnail" data-toggle="tooltip" data-title="Table Chart">
+          <label>
+            <input type="radio"/>
+            <img src="images/table.png" >
+          </label>
+        </li>
+        <li class="thumbnail" data-toggle="tooltip" data-title="Scatter Chart">
+          <label>
+            <input type="radio"/>
+            <img src="images/scatter.png">
+          </label>
+        </li>
+      </ul>
+  </div>
+</div>
+<!-- /Chart Choice -->
+
+<!-- Chart Settings -->
+<div class="container-fluid">
+  <div class="holder" id="settings">
+    <div id="chart-settings">
+          <label class="control-label">Title</label>
+          <div class="controls">
+            <input type="text" ng-model="chart.options.title">
+          </div>
+          <label class="control-label">Width</label>
+          <div class="controls">
+            <input type="number" min="0" max="900" ng-model="chart.options.width">
+          </div>
+          <label class="control-label">Height</label>
+          <div class="controls">
+            <input type="number" min="0" max="300" ng-model="chart.options.height">
+          </div>
+          <label class="control-label">Get JSON</label>
+          <div class="controls">
+              <input type="text" value="{{chart}}" onClick="this.select();">
+          </div>
+          <label class="control-label">Get HTML</label>
+          <div class="controls">
+              <input type="text" value="https://chart.googleapis.com/chart?cht=lc&chs={{chart.options.width}}x{{chart.options.height}}&chd=s:{{scope.chart}}" onClick="this.select();">
+          </div>
+          <label class="control-label">Embed</label>
+          <div class="controls">
+              <input type="text" value="<img src='//chart.googleapis.com/chart?cht=lc&chs={{chart.options.width}}x{{chart.options.height}}&cht=lc&chd=s:&chma=|45' width='{{chart.options.width}} height='{{chart.options.height}}' alt='' />" onClick="this.select();">
+          </div>
+          <form ng-submit="apply()" ng-controller="Ctrl" id="data-upload">
+            <input type="text" ng-model="data" name="data" placeholder="Paste in JSON chart"/>
+            <input type="submit" id="apply" value="Apply Data" class="btn"/>
+          </form>
+    </div>
+
+    <div id="mini-tabs" class="nav nav-tabs">
+
+      <div class="mini-tab selected" data-target="#option1" data-toggle="tab">Axes</div>
+      <div class="mini-tab" data-target="#option2" data-toggle="tab">Grid</div>
+      <div class="mini-tab" data-target="#option3" data-toggle="tab">Margins</div>
+      <div class="mini-tab" data-target="#option4" data-toggle="tab">Fills</div>
+      <div class="mini-tab" data-target="#option5" data-toggle="tab">Option 5</div>
+      <div class="mini-tab" data-target="#option6" data-toggle="tab">Option 6</div>
+      <div class="mini-tab" data-target="#option7" data-toggle="tab">Option 7</div>
+
+    </div>
+      <div id="type-settings" class="tab-content">
+        <div class="tab-pane active" id="option1">
+          <label>X Axis Label</label>
+          <div class="controls">
+            <input type="text" ng-model="chart.options.hAxis.title">
+          </div>
+          <label>Y Axis Label</label>
+          <div class="controls">
+            <input type="text" ng-model="chart.options.vAxis.title">
+          </div>
+        </div>       
+        <div class="tab-pane" id="option2">
+          <div>
+            <label class="control-label" for="chartType">Number of grid lines</label>
+            <input type="number" min="0" max="100" ng-model="chart.options.vAxis.gridlines.count"/>
+          </div>
+          <label><b>{{chart.options.vAxis.title}} Parameters</b></label><br>
+          <div ng-repeat="col in chart.data.cols" >
+              <input type="text" ng-model="col.id"/><input type="text" ng-model="col.label"/> 
+          </div>
+          <hr>
+          <form ng-submit="submit()" ng-controller="Ctrl">
+            <input type="text" ng-model="id" name="id" placeholder="id"/>
+            <input type="text" ng-model="label" name="label" placeholder="label"/>
+            <input type="text" ng-model="type" name="type" placeholder="type"/>
+            <input type="submit" id="submit" value="Add" class="btn"/>
+            <input type="button" id="remove" value="Remove" class="btn" ng-click="remove()"/>
+          </form>
+          <label><b>{{chart.options.hAxis.title}} Parameters</b></label><br>
+           <div ng-repeat="row in chart.data.rows" >
+              <div ng-repeat="column in row.c" ng-show="$first">
+                  <label>{{column.v}} server sale units</label>
+                  <div class="controls">
+                      <input type="number" min="0" max="100" ng-model="row.c[3].v"/>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="option3">
+            anything
+        </div>
+        <div class="tab-pane"id="option4">
+            <label>X Axis Label Colour</label>
+            <div class="input-append color" data-color="#1abc9c" data-color-format="hex" id="cp1" data-colorpicker-guid="3">
+              <input type="text" class="span3 color" value="" readonly="">
+              <span class="add-on"><i></i></span>
+            </div>
+            <br>
+            <label>Y Axis Label Colour</label>
+            <div class="input-append color" data-color="#34495e" data-color-format="hex" id="cp2" data-colorpicker-guid="3">
+              <input type="text" class="span3 color" value="" readonly="">
+              <span class="add-on"><i></i></span>
+            </div>
+            <br>
+            <label>Chart Background Colour</label>
+            <div class="input-append color" data-color="#8e44ad" data-color-format="hex" id="cp3" data-colorpicker-guid="3">
+              <input type="text" class="span3 color" value="" readonly="">
+              <span class="add-on"><i></i></span>
+            </div>
+            <br>
+            <label>Chart Font Colour</label>
+            <div class="input-append color" data-color="#2ecc71" data-color-format="hex" id="cp4" data-colorpicker-guid="3">
+              <input type="text" class="span3 color" value="" readonly="">
+              <span class="add-on"><i></i></span>
+            </div>
+            <br>
+        </div>
+         <div class="tab-pane"id="option5">
+            nothing
+        </div>
+         <div class="tab-pane"id="option6">
+            nothing
+        </div>
+         <div class="tab-pane"id="option7">
+            something
+        </div>
+      </div>
+  </div>
+</div>
+<!-- /Chart Settings -->
+
+<!-- Chart Preview -->
+<div class="container-fluid">
+  <div class="holder" id="chart-preview">
+    <div google-chart chart="chart" style="{{chart.cssStyle}}"/>
+  </div>
+</div>
+<!-- /Chart Preview -->
+
+<script src="//www.google.com/jsapi"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
+<script src="assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script src="assets/bootstrap-colorpicker/js/docs.js"></script>
+<script src="js/ng-google-chart.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
