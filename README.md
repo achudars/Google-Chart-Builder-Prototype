@@ -3,6 +3,13 @@ Google-Chart-Builder-Prototype
 
 Produces some of the most common charts based on Google Charts API. Built on AngularJS. Uses Flat UI, Twitter Bootstrap and Colorpicker for Twitter Bootstrap
 
+![Alt text](http://imgur.com/BJx4YB9 "Google Chart Builder Prototype")
+
+![Alt text](http://imgur.com/kKPtU9T "Colorpicker")
+
+![Alt text](http://imgur.com/7X00phq "Grid Options")
+
+==============================
 What doesn't work
 
 * extracting chart as HTML (issue in the data)
