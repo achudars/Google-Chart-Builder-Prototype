@@ -1,0 +1,239 @@
+/* ALL STYLES */
+* {
+	color: #ECF0F1;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+html {
+    height: 100%;
+}
+body {
+	background-color: #2C3E50;
+	background: #2C3E50; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #2C3E50 0%, #1ABC9C 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2C3E50), color-stop(100%,#1ABC9C)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #2C3E50 0%, #1ABC9C 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #2C3E50 0%,#1ABC9C 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #2C3E50 0%,#1ABC9C 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #2C3E50 0%,#1ABC9C 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C3E50', endColorstr='#1ABC9C',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.holder {
+	padding: 3px;
+	margin: 3px;
+	background-color: #1ABC9C;
+	border-radius: 3px;
+}
+/* HEADER */
+header {
+	height: 90px;
+}
+h1 {
+	padding-top: 10px;
+  	text-transform:uppercase;
+  	text-align: center;
+  	font-size: 78px;
+  	font-weight: 300;
+	font-family: 'Six Caps', sans-serif;
+}
+
+/* CONTAINERS */
+li {
+	margin: 2px;
+	border: none !important;
+	outline: none;
+	background-color: #2C3E50;
+	height: 50px;
+	cursor: pointer;
+}
+
+ul {
+	margin: 0px;
+
+}
+
+.thumbnail {
+	background-color: #1ABC9C;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-transition: 1s ease;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+.thumbnail:hover{
+	-webkit-transition: 1s ease;
+	background-color: #34495E;
+}
+
+/* SETTINGS */
+#header, #chart-type, #settings, #chart-preview {
+	width: 900px;
+	margin: 2px auto;
+}
+#settings {
+	height: 250px;
+}
+#chart-settings, #mini-tabs, #type-settings {
+	height: 240px;
+	background-color: #2C3E50;
+	float: left;
+	padding-bottom: 10px;
+}
+#chart-settings {
+	border-radius: 3px;
+	width: 207px;
+}
+#chart-settings input {
+	width: 100px;
+}
+#mini-tabs {
+	margin-left:3px;
+	width: 50px;
+	background-color: #1ABC9C;
+	border:none;
+}
+.mini-tab {
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 3px;
+	color: #bdc3c7;
+	background-color: #34495e;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.mini-tab:hover {
+	color: #FFF;
+	cursor: pointer;
+}
+.mini-tab.selected {
+	color: #FFF;
+	background-color: #2C3E50;
+}
+
+#type-settings {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 3px;
+	width: 640px;
+}
+#type-settings input {
+	width: 100px;
+}
+/* CHART PREVIEW. THE ACTUAL CHART AS THE USER WILL SEE IT */
+
+#chart-preview > div {
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
+/* MISC HACKS */
+.form-horizontal .control-label {
+	width: 200px;
+	padding-right: 20px;
+}
+input[type="radio"] {
+  display: none;
+
+}
+li label {
+	margin: 15px;
+}
+label, input[type="text"], input[type="number"] {
+	font-size: 11px;
+	height: 14px;
+}
+input[type="text"], input[type="number"] {
+	line-height: 14px;
+}
+.control-group {
+	margin-bottom: 0px;
+}
+#chart-settings label, #chart-settings input, #type-settings input {
+	margin: 5px  0px 0px 5px;
+}
+
+#chart-settings label {
+	float: left;
+	width: 80px;
+}
+#type-settings label {
+	margin: 5px  0px 0px 5px;
+	float: left;
+	width: 150px;
+}
+.checked {
+	background-color: #2C3E50;
+}
+.btn {
+	font-size: 11px;
+	height: 22px;
+	border-radius: 2px;
+	line-height: 11px;
+}
+#data-upload {
+	margin-top: 56px;
+}
+#data-upload .btn {
+	width: 75px;
+}
+.add-on {
+	margin: 5px 0px 0px -2px !important;
+	height: 14px !important;
+	border: none !important;
+	padding: 4px 3px !important;
+}
+.add-on i {
+	margin: -1px;
+}
+
+/* TOOLTIP THAT APPEARS OVER CHART TYPE WHEN HOVERED OVER */
+.tooltip-inner {
+	background-color: transparent;
+	width: 80px;
+	height: 0px;
+	line-height: 0px;
+	border-radius: 3px;
+	font-size: 11px;
+}
+.tooltip.top .tooltip-arrow {
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:5px solid transparent;
+}
+
+
+
+/* CUSTOM TOOLBAR */
+::-webkit-scrollbar {
+	cursor: pointer;
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	height: 40px;
+	background-color: #1ABC9C;
+	border-radius: 5px;
+	outline: #2C3E50 solid 2px;
+	outline-offset: -2px;
+	border: 2px solid #2C3E50;
+}
+::-webkit-scrollbar-track-piece {
+	background-color: #2C3E50;
+}

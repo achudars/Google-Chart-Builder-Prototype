@@ -1,0 +1,1163 @@
+{
+    "id": 8180170923239300,
+    "name": "chart_sample_math",
+    "columns": [
+        {
+            "id": 3398404115064708,
+            "index": 0,
+            "title": "Distance",
+            "type": "TEXT_NUMBER",
+            "primary": true
+        },
+        {
+            "id": 7902003742435204,
+            "index": 1,
+            "title": "Field Strength",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 583654347958148,
+            "index": 2,
+            "title": "Column3",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 5087253975328644,
+            "index": 3,
+            "title": "Column4",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 2835454161643396,
+            "index": 4,
+            "title": "Column5",
+            "type": "TEXT_NUMBER"
+        },
+        {
+            "id": 7339053789013892,
+            "index": 5,
+            "title": "Column6",
+            "type": "TEXT_NUMBER"
+        }
+    ],
+    "rows": [
+        {
+            "id": 780945700743044,
+            "rowNumber": 1,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.010174496986224,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.01017"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 5284545328113540,
+            "rowNumber": 2,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.395223806965747,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.39522"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 3032745514428292,
+            "rowNumber": 3,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.654121381832577,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.65412"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 7536345141798788,
+            "rowNumber": 4,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.914525203825176,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.91453"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 1906845607585668,
+            "rowNumber": 5,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.08743747124616,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.08744"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 6410445234956164,
+            "rowNumber": 6,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.31206292880747,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.31206"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 4158645421270916,
+            "rowNumber": 7,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.0606694441872,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.06067"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 8662245048641412,
+            "rowNumber": 8,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.081679684566,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.08168"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 499470724032388,
+            "rowNumber": 9,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.44559247766377,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.44559"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 5003070351402884,
+            "rowNumber": 10,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.99929687772723,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.9993"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 2751270537717636,
+            "rowNumber": 11,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.27242855523254,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.27243"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 7254870165088132,
+            "rowNumber": 12,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.850927205377207,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.85093"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 1625370630875012,
+            "rowNumber": 13,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.847093595769732,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.84709"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 6128970258245508,
+            "rowNumber": 14,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.845050045494726,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.84505"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 3877170444560260,
+            "rowNumber": 15,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.365689667996406,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.36569"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 8380770071930756,
+            "rowNumber": 16,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 3,
+                    "columnId": 3398404115064708,
+                    "displayValue": "3"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.148107585552314,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.14811"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 1062420677453700,
+            "rowNumber": 17,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.292342535425498,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.29234"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 5566020304824196,
+            "rowNumber": 18,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.697834200741507,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.69783"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 3314220491138948,
+            "rowNumber": 19,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.983369132632448,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.98337"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 7817820118509444,
+            "rowNumber": 20,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.845538880952651,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.84554"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 2188320584296324,
+            "rowNumber": 21,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.28995842153261,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.28996"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 6691920211666820,
+            "rowNumber": 22,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.978658950099707,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.97866"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 4440120397981572,
+            "rowNumber": 23,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.27241475081264,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.27241"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 8943720025352068,
+            "rowNumber": 24,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.37391205602923,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.37391"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 42073886877572,
+            "rowNumber": 25,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.28306872556292,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.28307"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 4545673514248068,
+            "rowNumber": 26,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.13637305083447,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.13637"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 2293873700562820,
+            "rowNumber": 27,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.915175375134573,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.91518"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 6797473327933316,
+            "rowNumber": 28,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.977940822020481,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.97794"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 1167973793720196,
+            "rowNumber": 29,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.704183985528369,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.70418"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 5671573421090692,
+            "rowNumber": 30,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.671734341644124,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.67173"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 3419773607405444,
+            "rowNumber": 31,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 3,
+                    "columnId": 3398404115064708,
+                    "displayValue": "3"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.276632628734479,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.27663"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 7923373234775940,
+            "rowNumber": 32,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.25818275627384,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.25818"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 605023840298884,
+            "rowNumber": 33,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.567913085244319,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.56791"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 5108623467669380,
+            "rowNumber": 34,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.846194391538078,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.84619"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 2856823653984132,
+            "rowNumber": 35,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.20256226896364,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.20256"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 7360423281354628,
+            "rowNumber": 36,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.00501875643182,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.00502"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 1730923747141508,
+            "rowNumber": 37,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.19243753660442,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.19244"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 6234523374512004,
+            "rowNumber": 38,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.13688776051992,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.13689"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 3982723560826756,
+            "rowNumber": 39,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.26117279303063,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.26117"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 8486323188197252,
+            "rowNumber": 40,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.35454232370074,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.35454"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 323548863588228,
+            "rowNumber": 41,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.24940428136331,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.2494"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 4827148490958724,
+            "rowNumber": 42,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.26756803787431,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.26757"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 2575348677273476,
+            "rowNumber": 43,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.06357687402355,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.06358"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 7078948304643972,
+            "rowNumber": 44,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.540550530713755,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.54055"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 1449448770430852,
+            "rowNumber": 45,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 2.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "2.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.663022697384272,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.66302"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 5953048397801348,
+            "rowNumber": 46,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 3,
+                    "columnId": 3398404115064708,
+                    "displayValue": "3"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.383653860903943,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.38365"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 3701248584116100,
+            "rowNumber": 47,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.563690515841913,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.56369"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 8204848211486596,
+            "rowNumber": 48,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.645423731054577,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.64542"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 886498817009540,
+            "rowNumber": 49,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.6,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.6"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.789171206125599,
+                    "columnId": 7902003742435204,
+                    "displayValue": "0.78917"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 5390098444380036,
+            "rowNumber": 50,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 0.8,
+                    "columnId": 3398404115064708,
+                    "displayValue": "0.8"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.190998218365,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.191"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 3138298630694788,
+            "rowNumber": 51,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.30875672222795,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.30876"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 7641898258065284,
+            "rowNumber": 52,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.2,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.2"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.36012382512042,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.36012"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        },
+        {
+            "id": 2012398723852164,
+            "rowNumber": 53,
+            "cells": [
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.4,
+                    "columnId": 3398404115064708,
+                    "displayValue": "1.4"
+                },
+                {
+                    "type": "TEXT_NUMBER",
+                    "value": 1.14535414553255,
+                    "columnId": 7902003742435204,
+                    "displayValue": "1.14535"
+                }
+            ],
+            "expanded": true,
+            "createdAt": "2013-06-30T11:16:58-05:00",
+            "modifiedAt": "2013-06-30T11:16:58-05:00"
+        }
+    ],
+    "accessLevel": "OWNER",
+    "version": 1,
+    "permalink": "https://www.smartsheet.com/b/home?lx=EuN5UgoMQl6tIdBjmLs4kg",
+    "createdAt": "2013-06-30T11:16:32-05:00",
+    "modifiedAt": "2013-06-30T11:16:58-05:00"
+}
