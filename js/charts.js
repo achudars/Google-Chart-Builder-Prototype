@@ -60,12 +60,16 @@ angular.module('google-chart-sample', ['googlechart.directives']).controller("Sa
     $scope.cols = chart1.data.cols;
     $scope.chart = chart1;
 
-
-
+    // applies uplaoded data from a JSON
     $scope.apply = function(data) {
-
+        try {
+            $scope.chart.data = preprocessJSON(this.data);
+        } catch(e) {
+            console.log(e);
+        };
     };
 
+   
 
 
 });
@@ -88,10 +92,14 @@ function Ctrl($scope) {
       $scope.cols.pop();
     }
   };
-
-  
-
 };
 
-
-
+function preprocessJSON(str) {
+    return str.replace(/("(\\.|[^"])*"|'(\\.|[^'])*')|(\w+)\s*:/g,
+    function(all, string, strDouble, strSingle, jsonLabel) {
+        if (jsonLabel) {
+            return '"' + jsonLabel + '": ';
+        }
+        return all;
+    });
+}
